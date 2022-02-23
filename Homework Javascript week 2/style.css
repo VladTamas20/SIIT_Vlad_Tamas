@@ -20,7 +20,7 @@
 
 
 hr {
-    width: 80%;
+    width: 60%;
     margin-left: 0%;
     text-align: right;
     background-color: black;
@@ -98,16 +98,23 @@ ul {
     align-items: center;
 }
 
-
 .Contact1 {
-text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
 }
 
 .Contact2 {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 .Contact3 {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .Contacts {
@@ -118,7 +125,8 @@ text-align: center;
     margin-left: 43%;
    }
    
-   .button1 {
+   
+.button1 {
        margin-left: 65%;
    }
 
@@ -127,6 +135,7 @@ text-align: center;
      width: 67%;
      margin-left: 30%;
    }
+
 
    @media (max-width: 700px) {
     .img1 {
@@ -143,5 +152,43 @@ text-align: center;
             
         }
         }
+
+    @media (max-width: 700px) {
+            .Lol1 {
+                width: 100%;
+                height: auto;
+                
+            }
+            }
+        
+    @media (max-width: 400px) {
+            .Lol1 {
+                width: 50%;
+                height: auto;
+                    
+                }
+                }
+
+
+     @media (max-width: 700px) {
+                    .Wow1 {
+            width: 100%;
+            height: auto;
+                        
+                    }
+                    }
+                
+     @media (max-width: 400px) {
+            .Wow1 {
+                width: 100%;
+                height: auto;
+                    }
+                    }        
+
+    
+                            
+    
+            
+                            
     
 
