@@ -1,0 +1,30 @@
+body {
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink)
+    fixed;
+}
+
+#post:hover {
+  background-color: deeppink;
+}
+
+#sterge {
+  margin-left: 230px;
+  position: fixed;
+  top: 8px;
+}
+#post {
+  margin-left: 180px;
+  position: fixed;
+  top: 8px;
+}
+
+#comment-box::placeholder {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+#comment-box {
+  border-style: solid;
+  height: 30px;
+}
